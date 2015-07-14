@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10D394B1B4E7E9600C78912 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10D39491B4E7E9600C78912 /* WindowController.m */; };
+		F10D394C1B4E7E9600C78912 /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10D394A1B4E7E9600C78912 /* WindowController.xib */; };
+		F13F4CDE1B4E766800E6F9DC /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13F4CDD1B4E766800E6F9DC /* AppKit.framework */; };
+		F13F4CE01B4E766800E6F9DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13F4CDF1B4E766800E6F9DC /* Foundation.framework */; };
+		F13F4CE51B4E766800E6F9DC /* SamplePlugin.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = F13F4CE41B4E766800E6F9DC /* SamplePlugin.xcscheme */; };
+		F13F4CE81B4E766800E6F9DC /* SamplePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F13F4CE71B4E766800E6F9DC /* SamplePlugin.m */; };
+		F13F4CEB1B4E766800E6F9DC /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F13F4CEA1B4E766800E6F9DC /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F10D39481B4E7E9600C78912 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		F10D39491B4E7E9600C78912 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		F10D394A1B4E7E9600C78912 /* WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
+		F13A98651B4E7796002BE394 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F13F4CDA1B4E766800E6F9DC /* SamplePlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13F4CDD1B4E766800E6F9DC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		F13F4CDF1B4E766800E6F9DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		F13F4CE31B4E766800E6F9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13F4CE41B4E766800E6F9DC /* SamplePlugin.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SamplePlugin.xcscheme; path = SamplePlugin.xcodeproj/xcshareddata/xcschemes/SamplePlugin.xcscheme; sourceTree = SOURCE_ROOT; };
+		F13F4CE61B4E766800E6F9DC /* SamplePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SamplePlugin.h; sourceTree = "<group>"; };
+		F13F4CE71B4E766800E6F9DC /* SamplePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamplePlugin.m; sourceTree = "<group>"; };
+		F13F4CE91B4E766800E6F9DC /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		F13F4CEA1B4E766800E6F9DC /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13F4CD81B4E766800E6F9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13F4CDE1B4E766800E6F9DC /* AppKit.framework in Frameworks */,
+				F13F4CE01B4E766800E6F9DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13F4CD11B4E766800E6F9DC = {
+			isa = PBXGroup;
+			children = (
+				F13F4CE11B4E766800E6F9DC /* SamplePlugin */,
+				F13F4CDC1B4E766800E6F9DC /* Frameworks */,
+				F13F4CDB1B4E766800E6F9DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F13F4CDB1B4E766800E6F9DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13F4CDA1B4E766800E6F9DC /* SamplePlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13F4CDC1B4E766800E6F9DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F13F4CDD1B4E766800E6F9DC /* AppKit.framework */,
+				F13F4CDF1B4E766800E6F9DC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13F4CE11B4E766800E6F9DC /* SamplePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				F13F4CE61B4E766800E6F9DC /* SamplePlugin.h */,
+				F13F4CE71B4E766800E6F9DC /* SamplePlugin.m */,
+				F13F4CE91B4E766800E6F9DC /* NSObject_Extension.h */,
+				F13F4CEA1B4E766800E6F9DC /* NSObject_Extension.m */,
+				F13F4CE21B4E766800E6F9DC /* Supporting Files */,
+				F13A98651B4E7796002BE394 /* ViewController.h */,
+				F10D39481B4E7E9600C78912 /* WindowController.h */,
+				F10D39491B4E7E9600C78912 /* WindowController.m */,
+				F10D394A1B4E7E9600C78912 /* WindowController.xib */,
+			);
+			path = SamplePlugin;
+			sourceTree = "<group>";
+		};
+		F13F4CE21B4E766800E6F9DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F13F4CE31B4E766800E6F9DC /* Info.plist */,
+				F13F4CE41B4E766800E6F9DC /* SamplePlugin.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13F4CD91B4E766800E6F9DC /* SamplePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13F4CEE1B4E766800E6F9DC /* Build configuration list for PBXNativeTarget "SamplePlugin" */;
+			buildPhases = (
+				F13F4CD61B4E766800E6F9DC /* Sources */,
+				F13F4CD71B4E766800E6F9DC /* Resources */,
+				F13F4CD81B4E766800E6F9DC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamplePlugin;
+			productName = SamplePlugin;
+			productReference = F13F4CDA1B4E766800E6F9DC /* SamplePlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13F4CD21B4E766800E6F9DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = TCS;
+				TargetAttributes = {
+					F13F4CD91B4E766800E6F9DC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = F13F4CD51B4E766800E6F9DC /* Build configuration list for PBXProject "SamplePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F13F4CD11B4E766800E6F9DC;
+			productRefGroup = F13F4CDB1B4E766800E6F9DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13F4CD91B4E766800E6F9DC /* SamplePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13F4CD71B4E766800E6F9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10D394C1B4E7E9600C78912 /* WindowController.xib in Resources */,
+				F13F4CE51B4E766800E6F9DC /* SamplePlugin.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13F4CD61B4E766800E6F9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10D394B1B4E7E9600C78912 /* WindowController.m in Sources */,
+				F13F4CE81B4E766800E6F9DC /* SamplePlugin.m in Sources */,
+				F13F4CEB1B4E766800E6F9DC /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F13F4CEC1B4E766800E6F9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		F13F4CED1B4E766800E6F9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		F13F4CEF1B4E766800E6F9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = SamplePlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		F13F4CF01B4E766800E6F9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = SamplePlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13F4CD51B4E766800E6F9DC /* Build configuration list for PBXProject "SamplePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13F4CEC1B4E766800E6F9DC /* Debug */,
+				F13F4CED1B4E766800E6F9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13F4CEE1B4E766800E6F9DC /* Build configuration list for PBXNativeTarget "SamplePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13F4CEF1B4E766800E6F9DC /* Debug */,
+				F13F4CF01B4E766800E6F9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13F4CD21B4E766800E6F9DC /* Project object */;
+}
