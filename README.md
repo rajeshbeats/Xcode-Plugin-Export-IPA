@@ -1,7 +1,7 @@
 # Xcode-Plugin-Export-IPA
 Export IPA from from Xcode Archive - Xcode Plugin
 
-#Installation
+# Installation
 
  - Download the SamplePlugin application and open in xcode
  - Build the application, (Product > Build)
